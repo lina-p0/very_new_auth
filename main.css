@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: linear-gradient(
+      189.78deg,
+      #ffba6c -17.15%,
+      #f58100 56.08%,
+      #fe600f 100.99%
+    )
+    fixed;
+  position: fixed;
+}
+
+.container {
+  width: 75vw;
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+
+  /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+  margin: auto;
+  margin-bottom: 20%;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+  width: 210px;
+  height: 47px;
+  font-size: 18px;
+  margin-bottom: 17px;
+  padding-left: 10px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(0, 0, 0);
+}
+
+.container img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 45px;
+}
+
+
+
+.container p {
+  float: left;
+  margin-top: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  background: linear-gradient(180deg, #313131 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 20px;
+}
+
+.dws-submit {
+  padding: 13px 30px;
+  margin: 5px 0 20px 0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+
+.container-2 img {
+  width: 100vw;
+  height: 22vh;
+}
+
+.low_wave img {
+  width: 83vw;
+}
+
+form {
+  margin-bottom: 10.7vh;
+}
